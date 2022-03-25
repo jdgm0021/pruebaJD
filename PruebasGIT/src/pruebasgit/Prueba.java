@@ -10,5 +10,14 @@ package pruebasgit;
  * @author Josedavid
  */
 public class Prueba {
+    String nombre;
+    int daño;
+    int vida;
+    
+    public Prueba(String nombre, int daño, int vida) {
+        this.nombre = nombre;
+        this.daño = daño;
+        this.vida = vida;
+    }
     
 }
