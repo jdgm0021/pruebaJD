@@ -14,10 +14,10 @@ public class Prueba {
     int daño;
     int vida;
     
-    public Prueba(String nombre, int daño, int vida) {
-        this.nombre = nombre;
-        this.daño = daño;
-        this.vida = vida;
+    public Prueba(String n, int d, int v) {
+        this.nombre = n;
+        this.daño = d;
+        this.vida = v;
     }
     
 }
