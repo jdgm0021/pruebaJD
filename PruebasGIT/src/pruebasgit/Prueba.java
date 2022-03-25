@@ -11,6 +11,6 @@ package pruebasgit;
  */
 public class Prueba {
     public void Atacar(Prueba malo){
-        System.out.println("caca");
+        System.out.println("caquita");
     }
 }
