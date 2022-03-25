@@ -10,5 +10,7 @@ package pruebasgit;
  * @author Josedavid
  */
 public class Prueba {
-    
+    public void Atacar(Prueba malo){
+        System.out.println("caca");
+    }
 }
