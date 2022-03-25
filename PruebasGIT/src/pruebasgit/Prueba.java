@@ -10,6 +10,7 @@ package pruebasgit;
  * @author Josedavid
  */
 public class Prueba {
+<<<<<<< HEAD
     String nombre;
     int daño;
     int vida;
@@ -20,4 +21,9 @@ public class Prueba {
         this.vida = v;
     }
     
+=======
+    public void Atacar(Prueba malo){
+        System.out.println("caquita");
+    }
+>>>>>>> atacar
 }
