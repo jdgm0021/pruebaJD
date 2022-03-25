@@ -22,5 +22,11 @@ public class Prueba {
     
     public void Atacar(Prueba malo){
         System.out.println("caquita");
+        malo.vida -= this.daño;
+        System.out.println(malo.nombre + " ha recibido " + this.daño + " de daño.");
+        if (malo.vida < 0) {
+            malo.vida = 0;
+        }
+        System.out.println("A " + malo.nombre + " le quedan " + malo.vida + " de vida.");
     }
 }
